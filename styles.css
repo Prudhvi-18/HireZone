@@ -1,0 +1,183 @@
+/* Styles for Login and Signup Pages */
+.login-section, .signup-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form, .signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label, .signup-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input, .signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #FFFEF4;
+    border-radius: 5px;
+}
+
+.login-btn, .signup-btn {
+    padding: 10px;
+    background-color:  #FF7D06;
+    color: #FFFEF4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color:  #FF7D06;
+}
+
+.login-form p, .signup-form p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-form p a, .signup-form p a {
+    color:  #FF7D06;
+    text-decoration: none;
+}
+
+.login-form p a:hover, .signup-form p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFEF4;
+}
+
+header {
+    background-color: #333;
+    color: #FFFEF4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFEF4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color:  #FF7D06;
+    color: #FFFEF4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cta-btn:hover {
+    background-color:  #FF7D06;
+}
+
+.job-listings {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFEF4;
+    border-radius: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.apply-btn {
+    display: inline-block;
+    background-color:  #FF7D06;
+    color: #FFFEF4;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.apply-btn:hover {
+    background-color:  #FF7D06;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFEF4;
+    border-radius: 5px;
+}
+
+.profile h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.edit-btn {
+    display: inline-block;
+    background-color:  #FF7D06;
+    color: #333;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color:  #FF7D06;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #FFFEF4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

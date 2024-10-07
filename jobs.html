@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add styles for the search bar and job listings */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .search-box {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .job-listing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .apply-btn {
+            background-color: #FF7D06;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none; /* Ensure it's styled as a button */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Browse Internships</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Search Bar -->
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" placeholder="Search by job or keyword">
+    </div>
+    <span>|</span>
+    <div class="search-box">
+        <input type="text" placeholder="Search by city">
+    </div>
+    <button class="apply-btn">Search</button>
+</div>
+
+<!-- Job Listings -->
+<div class="job-listings">
+    <div class="job-listing">
+        <div class="job-details">
+            <h3>Software Engineer</h3>
+            <p>Location: New York</p>
+            <p>Company: Tech Solutions</p>
+        </div>
+        <a href="confirmation.html?jobid=1" class="apply-btn">Apply Now</a>
+    </div>
+    <div class="job-listing">
+        <div class="job-details">
+            <h3>Web Developer</h3>
+            <p>Location: San Francisco</p>
+            <p>Company: Web Innovations</p>
+        </div>
+        <a href="confirmation.html?jobid=2" class="apply-btn">Apply Now</a>
+    </div>
+    <div class="job-listing">
+        <div class="job-details">
+            <h3>Data Scientist</h3>
+            <p>Location: Austin</p>
+            <p>Company: Data Insights</p>
+        </div>
+        <a href="confirmation.html?jobid=3" class="apply-btn">Apply Now</a>
+    </div>
+    <div class="job-listing">
+        <div class="job-details">
+            <h3>UI/UX Designer</h3>
+            <p>Location: Boston</p>
+            <p>Company: Creative Labs</p>
+        </div>
+        <a href="confirmation.html?jobid=4" class="apply-btn">Apply Now</a>
+    </div>
+    <div class="job-listing">
+        <div class="job-details">
+            <h3>Marketing Specialist</h3>
+            <p>Location: Chicago</p>
+            <p>Company: Bright Marketing</p>
+        </div>
+        <a href="confirmation.html?jobid=5" class="apply-btn">Apply Now</a>
+    </div>
+</div>
+
+</body>
+</html>
